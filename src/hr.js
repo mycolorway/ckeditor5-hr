@@ -12,7 +12,7 @@ import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import HREditing from './hr/hrediting';
 import HRUI from './hr/hrui';
 
-import '../theme/hr.scss';
+import '../theme/hr.css';
 
 export default class HRPlugin extends Plugin {
 	/**
