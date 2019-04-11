@@ -1,7 +1,7 @@
 {
   "name": "@didask/ckeditor5-hr",
-  "version": "1.0.0",
-  "description": "Horizontal Separator plugin for CKEditor5",
+  "version": "1.0.1",
+  "description": "Horizontal Rule, Separator plugin for CKEditor5",
   "keywords": [
     "ckeditor",
     "ckeditor5",
@@ -29,10 +29,12 @@
   },
   "author": "Didask (https://www.didask.com/)",
   "license": "GPL-2.0-or-later",
-  "bugs": "https://github.com/didask/ckeditor5-hr/issues",
+  "bugs": {
+    "url": "https://github.com/didask/ckeditor5-hr/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/didask/ckeditor5-hr.git"
+    "url": "git+https://github.com/didask/ckeditor5-hr.git"
   },
   "files": [
     "lang",
@@ -51,5 +53,7 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "homepage": "https://github.com/didask/ckeditor5-hr#readme",
+  "main": ".eslintrc.js"
 }

@@ -10,7 +10,6 @@
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import ButtonView from '@ckeditor/ckeditor5-ui/src/button/buttonview';
 import Command from '@ckeditor/ckeditor5-core/src/command';
-// // import HREditing from './hr/hrediting';
 import { viewToModelVisibilityAttribute, modelToViewVisibilityAttribute } from './hrvisibility/converters';
 import EyeIcon from '../theme/icons/eye.svg';
 import { isHR } from './hr/utils';
@@ -55,7 +54,7 @@ export default class HRVisibility extends Plugin {
 		// Converter for hr element from view to model.
 		data.upcastDispatcher.on( 'element:hr', viewToModelVisibilityAttribute, { priority: 'low' } );
 
-		// // Register visibility command.
+		// Register visibility command.
 		commands.add( 'hrToggleVisibility', new HRToggleVisibilityCommand( editor ) );
 
 		this._createButton();

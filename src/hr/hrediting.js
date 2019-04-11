@@ -11,9 +11,6 @@ import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 
 import { toHRWidget } from './utils';
 
-// eslint-disable-next-line no-unused-vars
-import HRIcon from '../../theme/icons/hr.svg';
-
 import HRInsertCommand from './hrinsertcommand';
 
 export default class HREditing extends Plugin {
