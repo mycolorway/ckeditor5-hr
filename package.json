@@ -1,6 +1,6 @@
 {
-  "name": "@didask/ckeditor5-hr",
-  "version": "1.0.1",
+  "name": "@mycolorway/ckeditor5-hr",
+  "version": "0.0.1",
   "description": "Horizontal Rule, Separator plugin for CKEditor5",
   "keywords": [
     "ckeditor",
